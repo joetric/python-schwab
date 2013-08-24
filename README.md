@@ -3,8 +3,15 @@ python-td
 
 Python library to retrieve information from a TD Bank business account.
 
-Setup
------
+Get Balance
+-----------
+
+	import schwab
+	schwab_browser = schwab.SchwabBrowser(your_username, your_pw)
+	print schwab_browser.get_balance()
+
+Test Setup
+----------
 
 Copy `test.dummy.sh` and replace the default values with your user id and password:
 
