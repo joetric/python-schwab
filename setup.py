@@ -7,12 +7,12 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name="python-td",
+    name="python-schwab",
     version="0.1",
-    description="Obtain transaction data from TD Bank business accounts.",
+    description="Obtain transaction data from Schwab accounts.",
     author="Joseph Tricarico",
     author_email="jtricarico@gmail.com",
-    url="http://github.com/joetric/python-td",
+    url="http://github.com/joetric/python-schwab",
     license="MIT",
     long_description=read('README.md'),
     packages=find_packages(),
@@ -23,6 +23,6 @@ setup(
         'Programming Language :: Python :: 2.7',
     ],
     # dependency_links=[],
-    install_requires=['mechanize==0.2.5'], 
-    test_suite='td.tests.tests',
+    install_requires=['BeautifulSoup', 'mechanize==0.2.5'], 
+    test_suite='schwab.tests.tests',
 )
