@@ -3,14 +3,20 @@ python-schwab
 
 Python library to retrieve information from a Schwab bank account.
 
+Command Line Usage
+------------------
+
+	$python schwab getbalance -u YOUR_USER_ID -p YOUR_PASSWORD
+	Balance is {{amount}}.
+
 Installation
 ------------
 
 	./setup.py build
 	./setup.py install
 
-Get Balance
------------
+Get Balance (Python Script)
+---------------------------
 
 	import schwab
 	schwab_browser = schwab.SchwabBrowser(your_username, your_pw)
