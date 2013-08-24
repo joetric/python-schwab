@@ -16,7 +16,7 @@ def main():
         balance = br.get_balance()
         print "Balance is $%.2f." % balance
     else:
-        logger.error("Unknown arg value: %s." % arg[0])
+        logger.error("Unknown arg value: %s." % args[0])
 
 
 if __name__ == '__main__':
