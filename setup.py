@@ -24,5 +24,5 @@ setup(
     ],
     # dependency_links=[],
     install_requires=['mechanize==0.2.5'], 
-    # test_suite='',
+    test_suite='td.tests.tests',
 )

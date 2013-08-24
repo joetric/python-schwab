@@ -1,0 +1,4 @@
+# RUN AS ROOT
+export TD_USER_ID=YOUR_USER_ID_HERE
+export TD_PASSWORD=YOUR_PASSWORD_HERE
+python setup.py test $@
