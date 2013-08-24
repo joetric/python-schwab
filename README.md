@@ -3,6 +3,12 @@ python-schwab
 
 Python library to retrieve information from a Schwab bank account.
 
+Installation
+------------
+
+	./setup.py build
+	./setup.py install
+
 Get Balance
 -----------
 
@@ -20,9 +26,3 @@ Copy `test.dummy.sh` and replace the default values with your user id and passwo
 	vim test.sh
 
 You can now run tests using `./test.sh`.
-
-Installation
-------------
-
-	./setup.py build
-	./setup.py install
