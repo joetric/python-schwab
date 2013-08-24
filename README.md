@@ -1,7 +1,7 @@
-python-td
-=========
+python-schwab
+=============
 
-Python library to retrieve information from a TD Bank business account.
+Python library to retrieve information from a Schwab bank account.
 
 Get Balance
 -----------
