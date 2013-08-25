@@ -8,13 +8,13 @@ def read(fname):
 
 setup(
     name="python-schwab",
-    version="0.1",
+    version="0.1.2",
     description="Obtain transaction data from Schwab accounts.",
     author="Joseph Tricarico",
     author_email="jtricarico@gmail.com",
     url="http://github.com/joetric/python-schwab",
     license="MIT",
-    long_description=read('README.md'),
+    long_description=read('README.txt'),
     packages=find_packages(),
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',

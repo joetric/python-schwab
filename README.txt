@@ -33,4 +33,4 @@ Copy `test.dummy.sh` and replace the default values with your user id and passwo
 	chmod +x test.sh
 	vim test.sh
 
-You can now run tests using `./test.sh`.
+You can now run tests using ``./test.sh``.
