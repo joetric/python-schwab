@@ -14,7 +14,7 @@ setup(
     author_email="jtricarico@gmail.com",
     url="http://github.com/joetric/python-schwab",
     license="MIT",
-    long_description=read('README.txt'),
+    long_description=read('README.rst'),
     packages=find_packages(),
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
