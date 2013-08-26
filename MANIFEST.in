@@ -1,3 +1,3 @@
 include test.dummy.sh
-include *.txt
+include *.rst
 include *.md
