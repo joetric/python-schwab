@@ -30,7 +30,7 @@ class SchwabBrowser:
 		login_response = self.get_login_response()
 		soup = BeautifulSoup(login_response.read())
 		table = soup.find("table", {"id": "tblCharlesSchwabBank"})
-		balance = float(table('tr')[1]('td')[2].span.text[1:])  # 2nd row, 3rd cell
+		balance = float(table('tr')[1]('td')[2].span.text[1:].replace(',', ''))  # 2nd row, 3rd cell
 		return balance
 
 	def logout(self):

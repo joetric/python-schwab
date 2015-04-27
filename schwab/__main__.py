@@ -12,7 +12,7 @@ def main():
     parser.add_option("-u", dest="user_id", action="store")
     parser.add_option("-p", dest="password", action="store")
     parser.add_option("-t", dest="tsv", action="store_true",
-        "Print line of tab-separated timestamp and balance values. "
+        help="Print line of tab-separated timestamp and balance values. "
         "Good for piping/appending to a text file.")
     options, args = parser.parse_args()
     if args[0] == 'getbalance':
