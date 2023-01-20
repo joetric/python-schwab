@@ -23,6 +23,6 @@ setup(
         'Programming Language :: Python :: 2.7',
     ],
     # dependency_links=[],
-    install_requires=['BeautifulSoup', 'mechanize==0.2.5'], 
+    install_requires=['BeautifulSoup', 'mechanize==0.4.6'], 
     test_suite='schwab.tests.tests',
 )
