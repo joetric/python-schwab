@@ -11,7 +11,6 @@ setup(
     version="0.1.2",
     description="Obtain transaction data from Schwab accounts.",
     author="Joseph Tricarico",
-    author_email="jtricarico@gmail.com",
     url="http://github.com/joetric/python-schwab",
     license="MIT",
     long_description=read('README.rst'),
